@@ -144,18 +144,19 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding-top: 10px;
+  background-color: var(--primary-color);
+  height: 10vw;
 }
 
 .contact-options {
   font-weight: bold;
-  font-size: 1.55vw;
+  font-size: 4.5vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 footer a {
-  border-bottom: solid var(--secondary-color) 5px;
   color: var(--secondary-color);
   text-decoration: none;
 }
@@ -210,10 +211,6 @@ footer a {
       padding-top: 5px;
   }
 
-  .brain-food {
-      height: 248px;
-  }
-
   .text-boxes {
       padding: 10px;
   }
@@ -235,16 +232,5 @@ footer a {
 
   .work-boxes {
       height: auto;
-  }
-
-  .brain-food {
-      height: 150px;
-      margin-bottom: 5px;
-  }
-
-  .run-buddy {
-      width: 98%;
-      height: 150px;
-      margin-bottom: 5px;
   }
 }
