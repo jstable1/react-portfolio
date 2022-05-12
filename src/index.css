@@ -1,13 +1,250 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: rgb(11 11 11);
+  --secondary-color: rgb(244 68 55);
+  --white: #ffffff;
+}
+
+body {
+  color: var(--secondary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER STYLING START */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 80px;
+  align-content: center;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--white);
+  padding-left: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 2px;
+  font-weight: bold;
+  font-size: 1.55vw;
+}
+
+header nav {
+  width: 40%;
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+/* END HEADER STYLING*/
+
+/* HERO STYLING START */
+.container {
+  height: 180px;
+  position: relative;
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+}
+/* HERO STYLING END */
+
+/* SECTION STYLING START */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.flex-row h1 {
+  width: 10%;
+  border-right: solid var(--primary-color) 3px;
+  text-align: right;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.55vw;
+}
+
+.section-body {
+  width: 80%;
+}
+
+.about p {
+  padding-top: 15px;
+  padding-left: 0px;
+  font-size: 1.55vw;
+  width: 60%;
+}
+
+.about img {
+  width: 20%;
+  padding-top: 10px;
+}
+
+.work-boxes {
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-top: 15px;
+}
+
+.text-boxes {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.text-boxes a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* FOOTER STYLING START */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.contact-options {
+  font-weight: bold;
+  font-size: 1.55vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a {
+  border-bottom: solid var(--secondary-color) 5px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+
+  header h1 {
+      text-align: center;
+  }
+
+  header nav ul {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  header nav ul li {
+      border-bottom: none;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header {
+      padding-bottom: 10px;
+      height: 25px;
+  }    
+
+  header h1 {
+      font-size: 25px;
+      font-weight: bold;
+      color: var(--secondary-color);
+      background-color: var(--primary-color);
+      padding-top: 20px;
+  }
+
+  .container {
+      height: 75px;
+  }
+
+  .flex-row h1 {
+      width: 5%;
+  }
+
+  .work-boxes {
+      height: 680px;
+      padding-top: 5px;
+  }
+
+  .brain-food {
+      height: 248px;
+  }
+
+  .text-boxes {
+      padding: 10px;
+  }
+
+  footer a {
+      border-bottom: none;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header h1 {
+      font-size: 20px;
+  }
+
+  .about p, .about img {
+      padding-top: 0px;
+  }
+
+  .work-boxes {
+      height: auto;
+  }
+
+  .brain-food {
+      height: 150px;
+      margin-bottom: 5px;
+  }
+
+  .run-buddy {
+      width: 98%;
+      height: 150px;
+      margin-bottom: 5px;
+  }
 }
