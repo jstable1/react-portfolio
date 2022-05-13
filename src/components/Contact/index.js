@@ -50,7 +50,7 @@ function Contact() {
         </div>
         <div class="inputBoxes">
           <label htmlFor="message">Message:</label><br></br>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea name="message" rows="8" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>

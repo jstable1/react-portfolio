@@ -88,7 +88,7 @@ header nav ul {
   align-content: center;
   border: 3px solid var(--secondary-color);
   border-radius: 15px;
-  width: 30vw;
+  width: 60vw;
   padding: 20px;
   margin-left: 40px;
 }
@@ -107,6 +107,10 @@ header nav ul {
   background-color: var(--secondary-color);
 }
 
+.contact h1 {
+  margin-bottom: 10px;
+}
+
 .flex-row {
   display: flex;
   width: 100%;
@@ -119,8 +123,19 @@ header nav ul {
   font-weight: bold;
 }
 
+input {
+  width: 25vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
 .inputBoxes {
   padding-top: 10px;
+}
+
+label {
+  font-size: large;
 }
 
 .portfolio {
@@ -165,6 +180,12 @@ section {
 
 .section-body {
   width: 100%;
+}
+
+textarea {
+  width: 50vw;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .work-boxes {
