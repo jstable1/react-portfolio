@@ -173,6 +173,27 @@ label {
   margin: 10px;
 }
 
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.resume h1, .resume h2, .resume h3 {
+  margin: 10px;
+}
+
+.resume li {
+  margin: 10px;
+  margin-left: 10px;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
