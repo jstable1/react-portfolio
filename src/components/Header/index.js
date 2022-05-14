@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../Navigation";
 import headerImage from "../../assets/images/chevron-pattern.jpeg";
 
-function Header() {
+function Header(props) {
 
   return (
     <header style={{
@@ -11,7 +11,7 @@ function Header() {
       backgroundSize: 'cover',
       height: '10vw'}}>
       <h1>Jessica Stabler</h1>
-      <Navigation></Navigation>
+      <Navigation  currentPage={props.currentPage} handlePageChange={props.handlePageChange} />
     </header>
   );
 }
