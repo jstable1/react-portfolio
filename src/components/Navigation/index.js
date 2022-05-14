@@ -4,8 +4,8 @@ import React from 'react';
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs" class="headerNav">
+      <li className="nav-item" class="headerUl">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -15,7 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" class="headerUl">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -25,7 +25,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" class="headerUl">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -35,7 +35,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" class="headerUl">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}

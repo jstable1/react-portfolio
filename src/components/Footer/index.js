@@ -7,7 +7,7 @@ function Footer() {
             <div class="contact-options section-body">
                 <a href="https://github.com/jstable1"><BsGithub /></a>
                 <a href="https://www.linkedin.com/in/jessica-stabler-b6539012/"><BsLinkedin /></a>
-                <a href="https://twitter.com"><BsTwitter /></a>
+                <a href="https://twitter.com/jstabler"><BsTwitter /></a>
             </div>
         </footer>
     )
