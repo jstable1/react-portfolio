@@ -1,7 +1,7 @@
 import React from "react";
 import dooziesImg from "../../assets/images/2doozies.jpeg";
 import brainFoodImg from "../../assets/images/brain-food.jpeg";
-import runBuddyImg from "../../assets/images/run-buddy.jpeg";
+import doozies2Img from "../../assets/images/2doozies2.0.jpeg";
 import techBlogImg from "../../assets/images/tech-blog.jpeg";
 import noteTakerImg from "../../assets/images/note-taker.jpeg";
 import budgetTrackerImg from "../../assets/images/budget-tracker.jpeg";
@@ -14,6 +14,14 @@ function Project() {
             <h1>Porfolio</h1>
             <div class="flex-row">
                 <div class="work-boxes section-body">
+                    <div class="portfolioItems" style={{
+                        backgroundImage: `url(${doozies2Img})`}}>
+                        <h2>
+                            <a href="https://safe-dusk-34146.herokuapp.com/">2doozies 2.0</a>
+                            <a href="https://github.com/jstable1/2-doozies"><BsGithub /></a>
+                        </h2>
+                        <h5>React.js/MongoDB/GraphQL/Apollo Server/JWT</h5>
+                    </div>
                     <div class="portfolioItems" style={{
                         backgroundImage: `url(${dooziesImg})`}}>
                         <h2>
@@ -57,15 +65,6 @@ function Project() {
                             <a href="https://github.com/jstable1/note-taker"><BsGithub /></a>
                         </h2>
                         <h5>Express.js</h5>
-                    </div>
-                    <div class="portfolioItems" style={{
-                        backgroundImage: `url(${runBuddyImg})`}}>
-                        <h2>
-                        <br></br>
-                            <a href="https://jstable1.github.io/run-buddy/">Run Buddy</a>
-                            <a href="https://github.com/jstable1/run-buddy"><BsGithub /></a>
-                        </h2>
-                        <h5>HTML/CSS</h5>
                     </div>
                 </div>
             </div>
