@@ -59,6 +59,7 @@ function Contact() {
         )}
         <button data-testid="button" type="submit" class="contactButton">Submit</button>
       </form>
+      <h3>If you prefer to email me directly my email is jessica.stabler@gmail.com</h3>
     </section>
   );
 }
