@@ -1,19 +1,32 @@
 import React from "react";
-import MeImg from '../../assets/images/Me.jpeg';
+import MeImg from "../../assets/images/Me.jpeg";
 
 function AboutMe() {
-
-    return (
-        <section id="about-me" class="about">
-            <h1>About Me</h1>
-            <img src={MeImg} className="" style={{ width: "10%" }} alt="me" />
-            <p>
-                I'm an up and coming web developer in Herriman, Utah. After 8.5 years in many roles with American Express I decided to switch careers to something that will be more mentally challenging. 
-                I graduated high school with an Associates Degree and then went on to get a Juris Doctorate which was possible because i'm a quick learner and have excellent communication skills which helped for numerous group projects. I'm incredibly detail-oriented which led to me getting three different coaching roles while employed at American Express since compliance with regulations is paramount in the financial services industry.
-                Outside of work I love to enjoy the outdoors from trailing riding with my horse to hiking with my dogs.
-            </p>
-        </section>
-    );
+  return (
+    <section id="about-me" class="about">
+      <h1>About Me</h1>
+      <img src={MeImg} className="" style={{ width: "10%" }} alt="me" />
+      <p>
+        Full-stack Web Developer leveraging legal and financial industry
+        background to build user-friendly web applications. I am very adaptable
+        and have the ability to easily learn new coding languages due to my
+        outstanding research skills honed by seven years of legal experience.
+        I am looking to leverage my development skills to provide small
+        businesses with web applications that support their metrics. I earned a
+        certificate in full stack web development from the University of Utah
+        and am proficient in HTML, CSS, Node, Express, MongoDB, MySQL and React.
+        I am known as being an innovative problem solver who collaborates with
+        co-workers to determine the best possible solution to a task. These
+        skills have helped me approach programming challenges from different
+        angles to find the best solution. Successfully collaborated with a
+        development team to create a JavaScript application that recommends
+        podcasts and books based on a user's search parameters. My technical
+        aptitude in cutting-edge web technologies, combined with communication
+        skills and problem solving abilities, makes me a strong addition to any
+        engineering team.
+      </p>
+    </section>
+  );
 }
 
 export default AboutMe;
