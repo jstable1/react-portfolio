@@ -11,7 +11,7 @@ import { BsGithub } from 'react-icons/bs';
 function Project() {
     return (
         <section id="work" class="portfolio">
-            <h1>Porfolio</h1>
+            <h1>Portfolio</h1>
             <div class="flex-row">
                 <div class="work-boxes section-body">
                     <div class="portfolioItems" style={{

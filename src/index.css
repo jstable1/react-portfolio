@@ -64,7 +64,6 @@ header a {
 
 /* SECTION STYLING START */
 .about {
-  padding-top: 2vw;
   display: flex;
   align-content: center;
   margin-bottom: 2vw;
@@ -74,7 +73,7 @@ header a {
   margin: auto;
   font-size: 3vw;
   height: 4vw;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .about img {
@@ -153,8 +152,8 @@ label {
 
 .portfolio h1 {
   font-size: 3vw;
-  margin-left: 5vw;
-  margin-top: 3vw;
+  margin: auto;
+  margin-top: 20px;
   height: 4vw;
 }
 
@@ -168,11 +167,11 @@ label {
 .portfolioItems {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20vw;
-  width: 40vw;
+  height: 25vw;
+  width: 45vw;
   padding: 10px;
-  margin: 10px;
   color: var(--primary-color);
+  /* opacity: 0.5; */
 }
 
 .portfolioItemsBT h2 a {
@@ -220,7 +219,7 @@ textarea {
 }
 
 .work-boxes {
-  height: 800px;
+  height: 90vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
