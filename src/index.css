@@ -210,11 +210,13 @@ label {
   display: flex;
   flex-direction: column;
   margin: 2vw 3vw;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .resume a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--white);
   font-style: italic;
 }
 
