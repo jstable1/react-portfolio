@@ -6,6 +6,7 @@ import techBlogImg from "../../assets/images/tech-blog.jpeg";
 import noteTakerImg from "../../assets/images/note-taker.jpeg";
 import budgetTrackerImg from "../../assets/images/budget-tracker.jpeg";
 import { BsGithub } from 'react-icons/bs';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 
 function Project() {
@@ -14,57 +15,65 @@ function Project() {
             <h1>Portfolio</h1>
             <div class="flex-row">
                 <div class="work-boxes section-body">
-                    <div class="portfolioItems" style={{
-                        backgroundImage: `url(${doozies2Img})`}}>
-                        <h2>
-                            <a href="https://safe-dusk-34146.herokuapp.com/">2doozies 2.0</a>
+                    <div class="portfolioBoxes">
+                        <h2>2doozies 2.0: A To-Do and Affirmation Web Application</h2>
+                        <div class="portfolioImg" style={{
+                        backgroundImage: `url(${doozies2Img})`}}></div>
+                        <div class="portfolioIcons">
+                            <a href="https://safe-dusk-34146.herokuapp.com/"><FaExternalLinkAlt /></a>
                             <a href="https://github.com/jstable1/2-doozies"><BsGithub /></a>
-                        </h2>
-                        <h5>React.js/MongoDB/GraphQL/Apollo Server/JWT</h5>
+                        </div>
+                        <h3>Technologies: React.js, MongoDB, Express.js, GraphQL, Apollo Server, JSON Web Token, Node.js, HTML and CSS</h3>
                     </div>
-                    <div class="portfolioItems" style={{
-                        backgroundImage: `url(${dooziesImg})`}}>
-                        <h2>
-                            <a href="https://twodoozies-app.herokuapp.com/">2doozies</a>
+                    <div class="portfolioBoxes">
+                        <h2>2doozies: A To-Do Web Application</h2>
+                        <div class="portfolioImg" style={{
+                        backgroundImage: `url(${dooziesImg})`}}></div>
+                        <div class="portfolioIcons">
+                            <a href="https://twodoozies-app.herokuapp.com/"><FaExternalLinkAlt /></a>
                             <a href="https://github.com/tyarchy/2Doozies"><BsGithub /></a>
-                        </h2>
-                        <h5>JavaScript/Handlebars</h5>
+                        </div>
+                        <h3>Technologies: HTML, CSS, Handlebars, Express.js, Node.js, MySQL and Sequelize</h3>
                     </div>
-                    <div class="portfolioItems" style={{
-                        backgroundImage: `url(${brainFoodImg})`}}>
-                        <h2> 
-                            <br></br><br></br>
-                            <a href="https://lillylav.github.io/brain-food/">Brain Food</a>
+                    <div class="portfolioBoxes">
+                        <h2>Brain Food: A Podcast and Book Search Web Application</h2>
+                        <div class="portfolioImg" style={{
+                        backgroundImage: `url(${brainFoodImg})`}}></div>
+                        <div class="portfolioIcons">
+                            <a href="https://lillylav.github.io/brain-food/"><FaExternalLinkAlt /></a>
                             <a href="https://github.com/lillylav/brain-food"><BsGithub /></a>
-                        </h2>
-                        <h5>APIs</h5>
+                        </div>
+                        <h3>Technologies: HTML, CSS (Bulma), JavaScript, Apple iTunes API and Open Library API</h3>
                     </div>
-                    <div class="portfolioItems" style={{
-                        backgroundImage: `url(${techBlogImg})`}}>
-                        <h2>
-                        <br></br><br></br><br></br>
-                            <a href="https://quiet-dawn-26561.herokuapp.com/">Tech Blog</a>
+                    <div class="portfolioBoxes">
+                        <h2>Tech Blog: A CMS-Style Blog Site</h2>
+                        <div class="portfolioImg" style={{
+                        backgroundImage: `url(${techBlogImg})`}}></div>
+                        <div class="portfolioIcons">
+                            <a href="https://quiet-dawn-26561.herokuapp.com/"><FaExternalLinkAlt /></a>
                             <a href="https://github.com/jstable1/tech-blog"><BsGithub /></a>
-                        </h2>
-                        <h5>Sequelize/Express/Handlebars</h5>
+                        </div>
+                        <h3>Technologies: MySQL, Sequelize, Express.js, Node.js, Handlebars, HTML and CSS</h3>
                     </div>
-                    <div class="portfolioItems portfolioItemsBT" style={{
-                        backgroundImage: `url(${budgetTrackerImg})`}}>
-                        <h2>
-                        <br></br><br></br>
-                            <a href="https://nameless-river-62078.herokuapp.com/">Budget Tracker</a>
+                    <div class="portfolioBoxes">
+                        <h2>Budget Tracker: A Budget Tracking Application</h2>
+                        <div class="portfolioImg" style={{
+                        backgroundImage: `url(${budgetTrackerImg})`}}></div>
+                        <div class="portfolioIcons">
+                            <a href="https://nameless-river-62078.herokuapp.com/"><FaExternalLinkAlt /></a>
                             <a href="https://github.com/jstable1/budget-tracker"><BsGithub /></a>
-                        </h2>
-                        <h5 style={{ color: 'rgb(244 68 55'}}>MongoDB</h5>
+                        </div>
+                        <h3>Technologies: MongoDB, Mongoose, Express.js, HTML and CSS</h3>
                     </div>
-                    <div class="portfolioItems" style={{
-                        backgroundImage: `url(${noteTakerImg})`}}>
-                        <h2>
-                        <br></br>
-                            <a href="https://immense-dawn-25672.herokuapp.com/">Note Taker</a>
+                    <div class="portfolioBoxes">
+                        <h2>Note Taker: A Note Taking Application</h2>
+                        <div class="portfolioImg" style={{
+                        backgroundImage: `url(${noteTakerImg})`}}></div>
+                        <div class="portfolioIcons">
+                            <a href="https://immense-dawn-25672.herokuapp.com/"><FaExternalLinkAlt /></a>
                             <a href="https://github.com/jstable1/note-taker"><BsGithub /></a>
-                        </h2>
-                        <h5>Express.js</h5>
+                        </div>
+                        <h3>Technologies: Express.js, HTML and CSS</h3>
                     </div>
                 </div>
             </div>
