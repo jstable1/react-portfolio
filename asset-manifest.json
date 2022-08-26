@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2f539c14.css",
-    "main.js": "/react-portfolio/static/js/main.ad7f84bd.js",
+    "main.css": "/react-portfolio/static/css/main.4a4ea09a.css",
+    "main.js": "/react-portfolio/static/js/main.d6519c1c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/2doozies.jpeg": "/react-portfolio/static/media/2doozies.f3ceb7e9f66f18820bd8.jpeg",
     "static/media/chevron-pattern.jpeg": "/react-portfolio/static/media/chevron-pattern.8bd55512983137809903.jpeg",
@@ -13,12 +13,12 @@
     "static/media/brain-food.jpeg": "/react-portfolio/static/media/brain-food.7893fad1735f3c030c9f.jpeg",
     "static/media/note-taker.jpeg": "/react-portfolio/static/media/note-taker.eafad321f73f4eb93f37.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.2f539c14.css.map": "/react-portfolio/static/css/main.2f539c14.css.map",
-    "main.ad7f84bd.js.map": "/react-portfolio/static/js/main.ad7f84bd.js.map",
+    "main.4a4ea09a.css.map": "/react-portfolio/static/css/main.4a4ea09a.css.map",
+    "main.d6519c1c.js.map": "/react-portfolio/static/js/main.d6519c1c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f539c14.css",
-    "static/js/main.ad7f84bd.js"
+    "static/css/main.4a4ea09a.css",
+    "static/js/main.d6519c1c.js"
   ]
 }
