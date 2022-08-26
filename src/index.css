@@ -88,6 +88,10 @@ header a {
   margin: 10px;
 }
 
+.aboutSection {
+  border-radius: 15px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
