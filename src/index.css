@@ -300,27 +300,11 @@ footer a {
   header {
       padding-bottom: 10px;
       height: 25px;
-  }    
-
-  .container {
-      height: 75px;
   }
 
-  .flex-row h1 {
-      width: 5%;
-  }
-
-  .work-boxes {
-      height: 680px;
+  .portfolioBoxes {
+      width: 95%;
       padding-top: 5px;
-  }
-
-  .text-boxes {
-      padding: 10px;
-  }
-
-  footer a {
-      border-bottom: none;
   }
 }
 
@@ -330,11 +314,13 @@ footer a {
       font-size: 20px;
   }
 
-  .about p, .about img {
-      padding-top: 0px;
+  .about img {
+    display: none;
   }
 
-  .work-boxes {
-      height: auto;
+  .about p {
+      margin: auto;
+      font-size: large;
+      width: 90%;
   }
 }
