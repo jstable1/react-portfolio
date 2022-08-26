@@ -323,4 +323,8 @@ footer a {
       font-size: large;
       width: 90%;
   }
+
+  .portfolio h2 {
+    margin-bottom: 5px;
+  }
 }
