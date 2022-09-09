@@ -3,7 +3,7 @@ import MeImg from "../../assets/images/Me.jpeg";
 
 function AboutMe() {
   return (
-    <section id="about-me">
+    <section id="about-me" class="aboutSection">
       <h1 class="aboutHeading">About Me</h1>
       <div class="about">
         <img src={MeImg} className="" style={{ width: "10%" }} alt="me" />

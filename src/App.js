@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -18,7 +18,7 @@ function App() {
       return <AboutMe />;
     }
     if (currentPage === 'Portfolio') {
-      return <Project />;
+      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
         return <Contact />;

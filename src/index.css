@@ -88,6 +88,10 @@ header a {
   margin: 10px;
 }
 
+.aboutSection {
+  border-radius: 15px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -148,6 +152,14 @@ label {
 
 .portfolio {
   text-align: center;
+  background-color: var(--primary-color);
+}
+
+.portfolioBoxes {
+  background-color: var(--secondary-color);
+  width: 48vw;
+  border-radius: 10px;
+  margin: 10px 0px;
 }
 
 .portfolio h1 {
@@ -155,23 +167,40 @@ label {
   margin: auto;
   margin-top: 20px;
   height: 4vw;
+  color: var(--secondary-color);
 }
 
-.portfolioItems h2 a {
+.portfolio h2 {
+  padding: 10px;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio h3 {
+  padding: 10px;
+}
+
+.portfolioIcons {
+  padding: 5px;
+  font-size: 3vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.portfolioIcons a {
   color: var(--primary-color);
-  text-decoration: none;
-  justify-content: space-around;
-  margin: 10px;
 }
 
-.portfolioItems {
+.portfolioImg {
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vw;
-  width: 45vw;
-  padding: 10px;
+  width: 42vw;
+  margin: auto;
   color: var(--primary-color);
-  /* opacity: 0.5; */
+  margin-bottom: 2vw;
 }
 
 .portfolioItemsBT h2 a {
@@ -185,11 +214,13 @@ label {
   display: flex;
   flex-direction: column;
   margin: 2vw 3vw;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .resume a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--white);
   font-style: italic;
 }
 
@@ -219,11 +250,9 @@ textarea {
 }
 
 .work-boxes {
-  height: 90vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: space-around;
 }
 
 /* FOOTER STYLING START */
@@ -271,27 +300,11 @@ footer a {
   header {
       padding-bottom: 10px;
       height: 25px;
-  }    
-
-  .container {
-      height: 75px;
   }
 
-  .flex-row h1 {
-      width: 5%;
-  }
-
-  .work-boxes {
-      height: 680px;
+  .portfolioBoxes {
+      width: 95%;
       padding-top: 5px;
-  }
-
-  .text-boxes {
-      padding: 10px;
-  }
-
-  footer a {
-      border-bottom: none;
   }
 }
 
@@ -301,11 +314,17 @@ footer a {
       font-size: 20px;
   }
 
-  .about p, .about img {
-      padding-top: 0px;
+  .about img {
+    display: none;
   }
 
-  .work-boxes {
-      height: auto;
+  .about p {
+      margin: auto;
+      font-size: large;
+      width: 90%;
+  }
+
+  .portfolio h2 {
+    margin-bottom: 5px;
   }
 }
