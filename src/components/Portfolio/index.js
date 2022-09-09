@@ -18,9 +18,13 @@ function Portfolio() {
                                     <div class="portfolioImg" style={{
                                     backgroundImage: `url(${project.img})`}}></div>
                                     <div class="portfolioIcons">
+                                        <div>
+                                            <span class="hovertext" data-hover={project.information}>
+                                                <HiInformationCircle />
+                                            </span>
+                                        </div>
                                         <a href={project.appLink}><FaExternalLinkAlt /></a>
                                         <a href={project.github}><BsGithub /></a>
-                                        <HiInformationCircle />
                                     </div>
                                     <h3>Technologies: {project.tech}</h3>
                                 </div>
