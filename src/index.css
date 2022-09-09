@@ -135,6 +135,34 @@ header a {
   font-weight: bold;
 }
 
+.hovertext {
+  position: relative;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 30vw;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 20px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
 input {
   width: 25vw;
   margin-top: 10px;
