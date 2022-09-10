@@ -20,11 +20,11 @@ function Portfolio() {
                                     <div class="portfolioIcons">
                                         <div>
                                             <span class="hovertext" data-hover={project.information}>
-                                                <HiInformationCircle />
+                                                <HiInformationCircle size={42} />
                                             </span>
                                         </div>
-                                        <a href={project.appLink}><FaExternalLinkAlt /></a>
-                                        <a href={project.github}><BsGithub /></a>
+                                        <a href={project.appLink}><FaExternalLinkAlt size={35}/></a>
+                                        <a href={project.github}><BsGithub size={35}/></a>
                                     </div>
                                     <h3>Technologies: {project.tech}</h3>
                                 </div>

@@ -163,6 +163,8 @@ header a {
   visibility: visible;
 }
 
+.informationIcon {}
+
 input {
   width: 25vw;
   margin-top: 10px;
@@ -212,7 +214,6 @@ label {
 
 .portfolioIcons {
   padding: 5px;
-  font-size: 3vw;
   display: flex;
   justify-content: space-evenly;
 }
