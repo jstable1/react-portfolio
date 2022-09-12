@@ -11,7 +11,6 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      console.log('Submit Form', formState);
     }
   };
 
@@ -32,14 +31,21 @@ function Contact() {
     }
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
     }
   };
 
   return (
     <section class="contact">
       <h1 data-testid="h1tag">Contact Me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form class="contact-form" onSubmit={handleSubmit} action="contactform.php" method="post">
+        <div class="inputBoxes">
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Name"></input>
+          <input type="text" name="email" defaultValue={email} onBlur={handleChange} placeholder="Your Email"></input>
+          <textarea type="text" name="message" defaultValue={message} onBlur={handleChange} placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="contactButton" name="submit">Submit</button>
+      </form>
+      {/* <form id="contact-form" onSubmit={handleSubmit}>
         <div class="inputBoxes">
           <label htmlFor="name">Name:</label><br></br>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -58,7 +64,7 @@ function Contact() {
           </div>
         )}
         <button data-testid="button" type="submit" class="contactButton">Submit</button>
-      </form>
+      </form> */}
       <h3>My email is jessica.stabler@gmail.com in case you prefer to email me later</h3>
     </section>
   );
