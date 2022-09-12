@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { MdOutlinePhoneIphone } from 'react-icons/md';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -40,7 +42,10 @@ function Contact() {
         </div>
         <button type="submit" class="contactButton" name="submit">Submit</button>
       </form>
-      <h3>My email is jessica.stabler@gmail.com in case you prefer to email me later</h3>
+      <div class="contactFormOptions">
+        <a href="mailto:jessica.stabler@gmail.com"><AiOutlineMail size={35}/><span>jessica.stabler@gmail.com</span></a>
+        <p><MdOutlinePhoneIphone size={35}/><span>801-230-4660</span></p>
+      </div>
     </section>
   );
 }
