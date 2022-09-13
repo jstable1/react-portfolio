@@ -12,7 +12,7 @@ function Contact() {
         <p><MdOutlinePhoneIphone size={35}/><span>801-230-4660</span></p>
       </div>
     </section>
-  );
-}
+  )
+};
 
 export default Contact;
