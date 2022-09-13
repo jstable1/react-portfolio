@@ -23,8 +23,8 @@ function Portfolio() {
                                                 <HiInformationCircle size={42} />
                                             </span>
                                         </div>
-                                        <a href={project.appLink}><FaExternalLinkAlt size={35}/></a>
-                                        <a href={project.github}><BsGithub size={35}/></a>
+                                        <a href={project.appLink} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt size={35}/></a>
+                                        <a href={project.github} target="_blank" rel="noopener noreferrer"><BsGithub size={35}/></a>
                                     </div>
                                     <h3>Technologies: {project.tech}</h3>
                                 </div>
